@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03CE6D8128744B430037B43F /* NordicDFU in Frameworks */ = {isa = PBXBuildFile; productRef = 03CE6D8028744B430037B43F /* NordicDFU */; };
+		03CE6D8428744BD50037B43F /* SDCAlertView in Frameworks */ = {isa = PBXBuildFile; productRef = 03CE6D8328744BD50037B43F /* SDCAlertView */; };
+		03CE6D8E287455D70037B43F /* IOSThingyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 03CE6D8D287455D70037B43F /* IOSThingyLibrary */; };
 		300517841EC06B7400E3A64E /* ukulele_8kHz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 300517831EC06B7400E3A64E /* ukulele_8kHz.wav */; };
 		3007EEFB1DA4F7CA003F844B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3007EEFA1DA4F7CA003F844B /* UIColorExtension.swift */; };
 		30098B1E1F3359FC00F20A83 /* ThingyNFCCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30098B1D1F3359FB00F20A83 /* ThingyNFCCreatorViewController.swift */; };
@@ -16,7 +19,6 @@
 		301157FC1DD61B8F00137C41 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301157FA1DD61B8F00137C41 /* TutorialViewController.swift */; };
 		30170A9F1EBCB93100176728 /* evil_laugh_8kHz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30170A9C1EBCB93100176728 /* evil_laugh_8kHz.wav */; };
 		30170AA01EBCB93100176728 /* grapevine_8kHz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30170A9D1EBCB93100176728 /* grapevine_8kHz.wav */; };
-		3025576D1ED2EB0500EB7227 /* IOSThingyLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3025576C1ED2EB0500EB7227 /* IOSThingyLibrary.podspec */; };
 		3039CCB21DD0D07000DA1C55 /* MotionModelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039CCB11DD0D07000DA1C55 /* MotionModelScene.swift */; };
 		308D1A921DE84A2B009138DE /* MainEmptyConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D1A911DE84A2B009138DE /* MainEmptyConfigurationViewController.swift */; };
 		308D1A951DE851DD009138DE /* SetRootViewSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D1A941DE851DD009138DE /* SetRootViewSegue.swift */; };
@@ -88,7 +90,6 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		84E679C7EB6BD445480581FB /* Pods_ThingySDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB4CEBCEE5607D72F65B5B6 /* Pods_ThingySDK_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,7 +103,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2CB4CEBCEE5607D72F65B5B6 /* Pods_ThingySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThingySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CE6D8B287455840037B43F /* IOS-Nordic-Thingy-jk */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "IOS-Nordic-Thingy-jk"; path = ..; sourceTree = "<group>"; };
 		300517831EC06B7400E3A64E /* ukulele_8kHz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ukulele_8kHz.wav; sourceTree = "<group>"; };
 		3007EEFA1DA4F7CA003F844B /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		30098B1D1F3359FB00F20A83 /* ThingyNFCCreatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingyNFCCreatorViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +113,6 @@
 		301157FA1DD61B8F00137C41 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		30170A9C1EBCB93100176728 /* evil_laugh_8kHz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = evil_laugh_8kHz.wav; sourceTree = "<group>"; };
 		30170A9D1EBCB93100176728 /* grapevine_8kHz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = grapevine_8kHz.wav; sourceTree = "<group>"; };
-		3025576C1ED2EB0500EB7227 /* IOSThingyLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IOSThingyLibrary.podspec; path = ../IOSThingyLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3039CCB11DD0D07000DA1C55 /* MotionModelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionModelScene.swift; sourceTree = "<group>"; };
 		308D1A911DE84A2B009138DE /* MainEmptyConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainEmptyConfigurationViewController.swift; sourceTree = "<group>"; };
 		308D1A941DE851DD009138DE /* SetRootViewSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetRootViewSegue.swift; sourceTree = "<group>"; };
@@ -131,7 +131,6 @@
 		309E4E621DA6904C00C90FDF /* ExpandableTableHeaderViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableTableHeaderViewDelegate.swift; sourceTree = "<group>"; };
 		30AAB3071DED8A310034B303 /* SetKeyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetKeyView.swift; sourceTree = "<group>"; };
 		30AC20081ECDD8DD00236FF6 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		30AE0E6A1F333D430097A80E /* ThingySDK_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThingySDK_Example.entitlements; sourceTree = "<group>"; };
 		30BD606E1E1D27EB00A91368 /* Thingy3DControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thingy3DControlViewController.swift; sourceTree = "<group>"; };
 		30BD606F1E1D27EB00A91368 /* ThingyGravityVectorControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingyGravityVectorControlViewController.swift; sourceTree = "<group>"; };
 		30BD60701E1D27EB00A91368 /* ThingyMotionControlDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingyMotionControlDelegate.swift; sourceTree = "<group>"; };
@@ -189,11 +188,6 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ThingySDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThingySDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8519DB4CC7FCA00CA348F63B /* Pods_ThingySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThingySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA6CEF6C224C5808D1DC80E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DF8146CB02C3DB9A7FE657BA /* Pods-ThingySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThingySDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThingySDK_Example/Pods-ThingySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DFF558D146FD01E03D48B56E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E548B8514F03244BA7C324AE /* Pods-ThingySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThingySDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThingySDK_Example/Pods-ThingySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,7 +195,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E679C7EB6BD445480581FB /* Pods_ThingySDK_Example.framework in Frameworks */,
+				03CE6D8E287455D70037B43F /* IOSThingyLibrary in Frameworks */,
+				03CE6D8428744BD50037B43F /* SDCAlertView in Frameworks */,
+				03CE6D8128744B430037B43F /* NordicDFU in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +211,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03CE6D8528744C120037B43F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				03CE6D8B287455840037B43F /* IOS-Nordic-Thingy-jk */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		03CE6D8C287455D70037B43F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3007EEF41DA4F1EB003F844B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,25 +515,14 @@
 			path = DFUFileSelection;
 			sourceTree = "<group>";
 		};
-		5E1C43444B5BEAF42A4AD1E1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2CB4CEBCEE5607D72F65B5B6 /* Pods_ThingySDK_Example.framework */,
-				8519DB4CC7FCA00CA348F63B /* Pods_ThingySDK_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				30AE0E6A1F333D430097A80E /* ThingySDK_Example.entitlements */,
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				03CE6D8528744C120037B43F /* Packages */,
 				607FACD21AFB9204008FA782 /* Example for ThingySDK */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				927A91C67289F8ADECECACE1 /* Pods */,
-				5E1C43444B5BEAF42A4AD1E1 /* Frameworks */,
+				03CE6D8C287455D70037B43F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -577,25 +577,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				3025576C1ED2EB0500EB7227 /* IOSThingyLibrary.podspec */,
-				DFF558D146FD01E03D48B56E /* README.md */,
-				DA6CEF6C224C5808D1DC80E2 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		927A91C67289F8ADECECACE1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E548B8514F03244BA7C324AE /* Pods-ThingySDK_Example.debug.xcconfig */,
-				DF8146CB02C3DB9A7FE657BA /* Pods-ThingySDK_Example.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -614,6 +595,11 @@
 			dependencies = (
 			);
 			name = ThingySDK_Example;
+			packageProductDependencies = (
+				03CE6D8028744B430037B43F /* NordicDFU */,
+				03CE6D8328744BD50037B43F /* SDCAlertView */,
+				03CE6D8D287455D70037B43F /* IOSThingyLibrary */,
+			);
 			productName = ThingeeSDK;
 			productReference = 607FACD01AFB9204008FA782 /* ThingySDK_Example.app */;
 			productType = "com.apple.product-type.application";
@@ -648,7 +634,6 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = P3R8YQEV4L;
 						LastSwiftMigration = 1010;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -672,14 +657,17 @@
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ThingySDK" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
+			packageReferences = (
+				03CE6D7F28744B430037B43F /* XCRemoteSwiftPackageReference "IOS-DFU-Library" */,
+				03CE6D8228744BD50037B43F /* XCRemoteSwiftPackageReference "SDCAlertView" */,
+			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -716,7 +704,6 @@
 				52FB0AFF221EC97C00B1E575 /* thingy_dfu_sd_bl_app_v2.2.0.HW_1.0.zip in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				52C7C9961FA366E700C4C06C /* Cloud.storyboard in Resources */,
-				3025576D1ED2EB0500EB7227 /* IOSThingyLibrary.podspec in Resources */,
 				52C7C9A51FA36D5800C4C06C /* Configuration.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1060,7 +1047,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
@@ -1069,20 +1057,22 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E548B8514F03244BA7C324AE /* Pods-ThingySDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ThingySDK_Example.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = P3R8YQEV4L;
+				DEVELOPMENT_TEAM = B9298H966N;
 				INFOPLIST_FILE = ThingySDK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.5.2;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = no.nordicsemi.ios.thingy;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.echoes.ios.thingy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1091,20 +1081,22 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF8146CB02C3DB9A7FE657BA /* Pods-ThingySDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ThingySDK_Example.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = P3R8YQEV4L;
+				DEVELOPMENT_TEAM = B9298H966N;
 				INFOPLIST_FILE = ThingySDK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.5.2;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = no.nordicsemi.ios.thingy;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.echoes.ios.thingy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1126,7 +1118,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.2;
@@ -1144,7 +1140,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.2;
@@ -1182,6 +1182,42 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03CE6D7F28744B430037B43F /* XCRemoteSwiftPackageReference "IOS-DFU-Library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NordicSemiconductor/IOS-DFU-Library";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		03CE6D8228744BD50037B43F /* XCRemoteSwiftPackageReference "SDCAlertView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sberrevoets/SDCAlertView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03CE6D8028744B430037B43F /* NordicDFU */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03CE6D7F28744B430037B43F /* XCRemoteSwiftPackageReference "IOS-DFU-Library" */;
+			productName = NordicDFU;
+		};
+		03CE6D8328744BD50037B43F /* SDCAlertView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03CE6D8228744BD50037B43F /* XCRemoteSwiftPackageReference "SDCAlertView" */;
+			productName = SDCAlertView;
+		};
+		03CE6D8D287455D70037B43F /* IOSThingyLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IOSThingyLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }
