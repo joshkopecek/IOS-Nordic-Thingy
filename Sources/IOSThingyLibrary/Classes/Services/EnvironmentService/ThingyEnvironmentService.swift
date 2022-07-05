@@ -42,6 +42,7 @@
 //
 
 import CoreBluetooth
+import UIKit
 
 public typealias TemperatureNotificationCallback    = (_ degreesInCelcius: Float) -> (Void)
 public typealias HumidityNotificationCallback       = (_ humidityPercentage: UInt8) -> (Void)

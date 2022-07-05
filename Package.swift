@@ -13,8 +13,7 @@ import PackageDescription
 let package = Package(
     name: "IOSThingyLibrary",
     platforms: [
-        .iOS(.v9),
-        .macOS(.v10_14)
+        .iOS(.v9)
     ],
     products: [
         .library(name: "IOSThingyLibrary", targets: ["IOSThingyLibrary"]),

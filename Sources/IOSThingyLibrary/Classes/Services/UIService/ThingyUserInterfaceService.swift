@@ -42,6 +42,7 @@
 //
 
 import CoreBluetooth
+import UIKit
 
 public typealias ButtonNotificationCallback = (_ state: ThingyButtonState) -> (Void)
 
